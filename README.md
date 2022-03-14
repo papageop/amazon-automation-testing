@@ -3,6 +3,9 @@
 <p>In this project we  will attempt to implement a simple automation testing task for the website www.amazon.com.
 We will implement some basic pages such as homepage, sign in, sign up, cart, product page etc. Afterwards, we will build some basic tests
 that will attempt to make some basic user actions like those described in the Goals section.</p>
+<h3>First Steps</h3>
+<p>Before you run the tests, you need to supply the username and password credentials for login. Then install all dependencies and build the project.</p>
+<code>mvn install -DskipTests=true </code>
 <h3>Goals</h3>
 <p>
 <ul>
