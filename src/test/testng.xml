@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite  name="Amazon Suite Tests"  parallel="false" preserve-order="true" verbose="2">
+    <test name="Amazon test" >
+        <classes>
+            <class name="base.BaseTest" />
+            <class name="navigation.NavigationTest" />
+            <class name="cookies.CookiesTest" />
+            <class name="login_register.SignInPageTest" />
+            <class name="product.ProductsTest"/>
+            <class name="cart.CartPageTest"></class>
+        </classes>
+    </test>
+
+</suite>
